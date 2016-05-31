@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Lab 2 </title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script type="text/javascript" src="js/validations.js"></script>	
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="container">
+		<h1> Multiply or divide</h1>
+		<div id="errors" class="alert hidden">
+			<span id="error" class="alert alert-danger">Error</span>
+		</div>
+		<div id="num1" class="form-group">
+			<label for="number">Number 1:</label>
+			<input type="text" id="number1" class="form-control" placeholder="Enter a number"/>
+		</div>
+		<div id="num2" class="form-group">
+			<label for="number">Number 2:</label>
+			<input type="text" id="number2" class="form-control" placeholder="Enter a number"/>
+		</div>
+
+	<div id="controls">
+		<input type="button" id="multiply" class="btn btnm-default" value="Multiply"/>
+		<input type="button" id="divide" class="btn btnm-default" value="Divide"/>
+	</div>
+	
+	<div id="results" class="well">
+	<h5>Result:</h5>
+	<span id="result"></span>
+	</div>
+	</div>
+</body>
+</html>

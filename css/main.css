@@ -1,0 +1,12 @@
+#main{
+	font-size: 20px;
+	float:center;
+	width:50%;
+	margin: 0 auto;
+}
+.darkBG{
+	background-color:DFECF0;
+}
+.center{
+	text-align:center;
+}
